@@ -18,7 +18,7 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "halloy";
-  version = "2025.11";
+  version = "2025.12";
 
   src = fetchFromGitHub {
     owner = "squidowl";
@@ -27,7 +27,7 @@ rustPlatform.buildRustPackage rec {
     hash = "sha256-5cYTHb3KK5EiPv5P8GZOoQwSSIe0FO+qBnpvLZtuByI=";
   };
 
-  cargoHash = "sha256-gGVclMEcvgdl3ZTiEdhW48xhC9/eONeHp0KX1lHKKxU=";
+  cargoHash = "sha256-rVeh0nvmRjfOErwUhiWBx3hHla9bA2mSOORNSqSOrfw=";
 
   nativeBuildInputs = [
     copyDesktopItems
